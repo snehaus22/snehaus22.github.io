@@ -112,7 +112,7 @@ basic theme:
   background: "#ffffff"
   light_background: "#f3f5fb"
   
-  mint theme:
+mint theme:
   text: "#2c3333"
   border: "#e0f2ef"
   link: "#40b3a2"
@@ -128,7 +128,7 @@ lemon theme:
   background: "#fffdf5"
   light_background: "#fff9e6"
   
-  pink theme:
+pink theme:
   text: "#2d2d2d"
   border: "#f8e2e2"
   link: "#ff8fa3"
