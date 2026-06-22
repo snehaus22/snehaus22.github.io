@@ -8,5 +8,5 @@ skills:
 - Circuit Safety
 - 3D Printing
 - CAD
-main-image: /EMGcontrolledhand.jpg 
+main-image: /EMGcontrolledhand.png
 ---
