@@ -12,4 +12,4 @@ main-image: /ivig.png
 ---
 
 ---
-{% include image-gallery.html images="/ivigmechanism.png" height="400" %}
+{% include image-gallery.html ivig="/ivigmechanism.png" height="400" %}
