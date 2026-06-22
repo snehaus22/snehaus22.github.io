@@ -8,5 +8,5 @@ skills:
 - Tensorflow
 - Neural Networks
 - Binary Classification
-main-image: /project.webp 
+main-image: /breastcancer.png
 ---
