@@ -11,13 +11,16 @@ skills:
 main-image: /ivig.png
 ---
 
-##IVIG Mechanism <br>
+##IVIG Mechanism 
+<br>
 <img src="ivigmechanism.png" width="700">
 
-##Cohort Definition <br>
+##Cohort Definition 
+<br>
 <img src="cohort definition.png" width="300">
 
-##Results <br>
+##Results 
+<br>
 we saw . . .
 
 
