@@ -5,5 +5,7 @@ description:  A mathematical model of BPA absorption and endocrine disruption in
 skills: 
 - Python
 - Chemical Kinetics
+- Pharmacokinetics/Pharmacodynamics
+- Differential Equations
 main-image: /bpa.png
 ---
