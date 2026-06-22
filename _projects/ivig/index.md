@@ -11,4 +11,4 @@ skills:
 main-image: /ivig.png
 ---
 
-{% include image-gallery.html images="ivigmechanism.png" height="400" %}
+<img src="ivigmechanism.png" width="700">
