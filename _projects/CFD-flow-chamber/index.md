@@ -5,5 +5,8 @@ description:  A computational model to study how changing channel geometry affec
 skills: 
 - COMSOL
 - Computational Fluid Dynamics
+- Newtonian Fluids
+- Cell/Tissue Engineering
+- Tissue Biomechanics
 main-image: /cfdflowchamber.png
 ---
