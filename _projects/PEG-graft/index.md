@@ -5,5 +5,7 @@ description:  A biomaterials strategy to reduce thrombosis and improve endotheli
 skills: 
 - Biomaterials
 - Cell Engineering
+- Biochemistry
+- Tissue Biomechanics
 main-image: /PEG.png
 ---
