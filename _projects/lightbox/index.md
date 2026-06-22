@@ -9,5 +9,5 @@ skills:
 - C++
 - Python
 - Firmware
-main-image: /project.webp 
+main-image: /oneshot.png
 ---
