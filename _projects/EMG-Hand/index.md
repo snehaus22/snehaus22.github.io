@@ -11,6 +11,20 @@ skills:
 main-image: /EMGcontrolledhand.png
 ---
 
+# Design Specs
+- Design must replicate the function of a hand
+- Tests: Object hold, sustained grip, repeated grip
+
+- Design must be functional without the presence of a hand
+= Test: General finger flexion in response to EMG
+
+= Design components should not interfere with function
+Test: General flexion and object hold
+
+= Design must be sensitive enough to function at low forearm muscle activity
+= Test: Grip strength test
+
+
 | Schematic | PCB |
 |----------|----------|
 | {% include image-gallery.html images="armschematic.png" height="400" %} | {% include image-gallery.html images="armpcb.png" height="400" %}  |
