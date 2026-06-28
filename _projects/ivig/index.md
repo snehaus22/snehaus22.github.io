@@ -27,7 +27,7 @@ We performed a retrospective longitudinal observational study of 40 pediatric ki
 
 ## Demographics
 <br>
-{% include image-gallery.html images="demographics.png" height="400" %} 
+{% include image-gallery.html images="demographicstable.png" height="400" %} 
 
 ## Results:
 {% include image-gallery.html images="results.png" height="400" %} 
