@@ -8,11 +8,23 @@ skills:
 - 3D Printing
 - C++
 - Python
-- Firmware
+- Arduino Firmware
 main-image: /oneshot.png
 ---
 
 ---
+## CAD Design
+Enclosure of the lightbox:
+{% include image-gallery.html images="Enclosure_base_walls.png" height="400" %} 
+PCB Mounts for the base of the enclosure:
+{% include image-gallery.html images="Mounts.png" height="400" %} 
+
+## PCB Design
+Schematic:
+{% include image-gallery.html images="schematic.png" height="400" %} 
+PCB:
+{% include image-gallery.html images="pcb.png" height="400" %} 
+
 # Header 1 
 Used for the title (already generated automatically at the top)
 ## Header 2  
