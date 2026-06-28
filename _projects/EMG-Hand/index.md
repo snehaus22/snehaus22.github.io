@@ -19,7 +19,7 @@ main-image: /EMGcontrolledhand.png
 - Test: General finger flexion in response to EMG
 
 - Design components should not interfere with function
-Test: General flexion and object hold
+- Test: General flexion and object hold
 
 - Design must be sensitive enough to function at low forearm muscle activity
 - Test: Grip strength test
