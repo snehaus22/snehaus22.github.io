@@ -16,20 +16,23 @@ main-image: /EMGcontrolledhand.png
 - Tests: Object hold, sustained grip, repeated grip
 
 - Design must be functional without the presence of a hand
-= Test: General finger flexion in response to EMG
+- Test: General finger flexion in response to EMG
 
-= Design components should not interfere with function
+- Design components should not interfere with function
 Test: General flexion and object hold
 
-= Design must be sensitive enough to function at low forearm muscle activity
-= Test: Grip strength test
+- Design must be sensitive enough to function at low forearm muscle activity
+- Test: Grip strength test
 <br>
 
 ## Schematic & PCB 
-{% include image-gallery.html images="armschematic.png" height="400" %} {% include image-gallery.html images="armpcb.png" height="400" %}
+
+{% include image-gallery.html images="armschematic.png" height="400" %} 
+{% include image-gallery.html images="armpcb.png" height="400" %}
 <br>
 
 ## Fully Assembled 3D Printed Hand
+
 {% include image-gallery.html images="robotichand.png" height="400" %} 
 <br>
 
