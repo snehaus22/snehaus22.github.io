@@ -23,14 +23,15 @@ Test: General flexion and object hold
 
 = Design must be sensitive enough to function at low forearm muscle activity
 = Test: Grip strength test
+<br>
 
-
-| Schematic | PCB |
-|----------|----------|
-| {% include image-gallery.html images="armschematic.png" height="400" %} | {% include image-gallery.html images="armpcb.png" height="400" %}  |
+## Schematic & PCB 
+{% include image-gallery.html images="armschematic.png" height="400" %} {% include image-gallery.html images="armpcb.png" height="400" %}
+<br>
 
 ## Fully Assembled 3D Printed Hand
 {% include image-gallery.html images="robotichand.png" height="400" %} 
+<br>
 
 ## Firmware
 - ADC conversion: 0-5 V mapping to 0-1023 
