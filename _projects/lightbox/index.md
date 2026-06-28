@@ -16,6 +16,7 @@ main-image: /oneshot.png
 ## CAD Design
 Enclosure of the lightbox:
 {% include image-gallery.html images="Enclosure_base_walls.png" height="400" %} 
+<br>
 PCB Mounts for the base of the enclosure:
 {% include image-gallery.html images="Mounts.png" height="400" %} 
 
@@ -25,98 +26,31 @@ Schematic:
 PCB:
 {% include image-gallery.html images="pcb.png" height="400" %} 
 
-# Header 1 
-Used for the title (already generated automatically at the top)
-## Header 2  
-Use this for the header of each section
-### Header 3 
-Use this to have subsection if needed
+## Component Footprints
 
+| Description | Part Number | Digikey Part Number |
+| --- | --- | --- |
+| Arduino Nano Every | ABX00033 | 1050-ABX00033-ND |
+| Push Button | PS1024ALRED | EG2025-ND |
+| Toggle Switch | SW-T3-1A-A-A3-S1 | 2057-SW-T3-1A-A-A3-S1-ND |
+| LED | PM5RD | 492-1659-ND |
+| 15 Pin Header | PPTC151LFBN-RC | S7013-ND |
+| 9V Battery | ZEUS 9V | 2059-ZEUS9V-ND |
+| Battery Connector | 232 | 36-232-ND |
+| 2 Pin Connector | B02B-XASK-1 | 455-B02B-XASK-1-ND |
+| 3 Pin Connector | B03B-XASK-1 | 455-B03B-XASK-1-ND |
+| 2 Pin Jumper | A02XAF02XAF22K152B | 455-3061-ND |
+| 3 Pin Jumper | A03KR03KR26E152B | 455-3379-ND |
+| 10k Potentiometer | PDB181-E420K-103B | PDB181-E420K-103B-ND |
+| Transistor | IRFZ44 | (TO220 Packaging) |
 
-## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
+## Firmware 
 
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
-place the images in project folder/images then update the file path.   
+- SPST push button switch (ON/OFF) to turn "eye" LEDs on for 5 seconds and
+"nose" LED for 10 seconds.
 
+- Potentiometer to adjust brightness of "eye" LEDs using PWM (0-100%).
 
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-{% include youtube-video.html id="MhVw-MHGv4s" autoplay= "false"%}
-{% include youtube-video.html id="XGC31lmdS6s" autoplay = "true" %}
+- Potentiometer to adjust blinking rate of "nose" LED (5-10 Hz).
 
-you can also set up custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is 560 pixels x 315 pixels.  
-
-The width of the video below. Regardless of initial width, all the videos is responsive and will fit within the smaller screen.
-{% include youtube-video.html id="tGCdLEQzde0" autoplay = "false" width= "900px" %}  
-
-<br>
-
-## Adding a hozontal line
----
-
-## Starting a new line
-leave two spaces "  " at the end or enter <br>
-
-## Adding bold text
-this is how you input **bold text**
-
-## Adding italic text
-Italicized text is the *cat's meow*.
-
-## Adding ordered list
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-
-## Adding unordered list
-- First item
-- Second item
-- Third item
-- Fourth item
-
-## Adding code block
-```ruby
-def hello_world
-  puts "Hello, World!"
-end
-```
-
-```python
-def start()
-  print("time to start!")
-```
-
-```javascript
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
-}
-console.log(x);
-
-```
-
-## Adding external links
-[Wikipedia](https://en.wikipedia.org)
-
-
-## Adding block quote
-> A blockquote would look great if you need to highlight something
-
-
-## Adding table 
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
-make sure to leave aline betwen the table and the header
-
+- Have the on-board NanoEvery LED act as a "heartbeat" LED blinking at 1 Hz in all states.
